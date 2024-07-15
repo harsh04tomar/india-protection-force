@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Business website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+      <div class="navigation w3-highway-blue w3-container">
+        <nav class="nav-container w3-padding-large">
+          <div class="logo">
+           <img src="img1.jpeg" alt="Logo" /> 
+          </div>
+          <div class="mobile-button">
+            <span style="float: right;" onclick="toggleMobileNavigation()">&#9776;</span>
+          </div>
+          <div class="links">
+            <a href="#about" >About</a>
+            <a href="#services" >Services</a>
+            <a href="#clients" >Clients</a>
+            <a href="#contact" >Contact</a>            
+          </div>
+          <div id="mobile-sidenav" class="mobile-links w3-highway-blue">
+            <div class="mobile-logo" style="display: inline;">
+              <a href="#home" class="logo">India Protection Force</span></a>
+              <span style="width: 100%;"></span>
+              <a href="javascript:void(0)" class="closebtn" onclick="toggleMobileNavigation()">&times;</a>
+            </div>
+            <a href="#about" onclick="toggleMobileNavigation()">About Us</a>
+            <a href="#services" onclick="toggleMobileNavigation()">Services</a>
+            <a href="#clients" onclick="toggleMobileNavigation()">Clients</a>
+            <a href="#contact" onclick="toggleMobileNavigation()">Contact</a>
+          </div>
+        </nav>
+      </div>
+
+      <div class="hero" id="home">
+        <div class="text container">
+          <p class="pre-title">One stop for professional security service </p>
+          <h1 class="title"> India Protection Force</span></h1>
+          <p class="post-title">Premier Security Solutions!</p>
+          <a class="w3-button w3-round-large w3-indigo w3-hover-blue" href="#services">OUR SERVICES</a> 
+        </div>
+      </div>
+
+      <div class="about container w3-padding-large" id="about">
+        <div class="text-one">
+          <h2>About Us</h2>
+          <p>We take immense pride in introducing ourselves as a distinguished professional security service provider. Our extensive experience encompasses serving manufacturing giants across various industries, including Cement, Chemical, Pharmaceuticals, Glass, Rubber, Sugar, Yarn, Petrochemicals, Food & Beverages, and Textile. Our expertise extends to Export Houses, Malls, Schools & Colleges, Hospitals, Events, Personal Security, and more.
+
+With over two decades of esteemed service, we have established a robust presence across India, with a significant concentration in South and Central Gujarat. Our mission is to offer elite, reliable, and efficient security services, ensuring the utmost safety and satisfaction of our clients.</p>
+           </div>
+            </div>
+
+      <div class="w3-panel w3-highway-blue numbers">
+        <h2 class="w3-center w3-xxxlarge">WE HAVE</h2>
+        <p class="w3-center w3-xxxlarge show-medium">
+          <?xml version="1.0" encoding="utf-8"?>
+          <svg x="0px" y="0px" width="36" fill="#bed9f3" stroke="#bed9f3"
+            viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+          <g id="Down-arrow">
+            <path d="M17.2929993,29.7070007c-0.3906994-0.3906002-0.3906994-1.0234013,0-1.4140015
+              c0.3906002-0.3906002,1.0234013-0.3906002,1.4140015,0L32,41.5858994l13.2929993-13.2929001
+              c0.3905983-0.3906002,1.0233994-0.3906002,1.4140015,0C46.902298,28.4883003,47,28.7441998,47,29
+              c0,0.2558994-0.097702,0.5116997-0.2929993,0.7070007l-14,14c-0.3906021,0.3906975-1.0234013,0.3906975-1.4140015,0
+              L17.2929993,29.7070007z"/>
+            <path d="M32,64c17.6730957,0,32-14.3269005,32-32S49.6730957,0,32,0C14.3268003,0,0,14.3268995,0,32S14.3268003,64,32,64z M32,62
+              C15.4579,62,2,48.542099,2,32C2,15.4580002,15.4579,2,32,2s30,13.4580002,30,30C62,48.542099,48.542099,62,32,62z"/>
+          </svg>
+        </p>
+        <div class="container w3-padding-large">
+          <div class="text">
+            <p class="number">55+</p>
+            <p>Clients</p>
+          </div>
+                    <div class="text">
+            <p class="number">10+</p>
+            <p>Years of experience</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="services container" id="services">
+        <h2 class="w3-center">Our services</h2>
+        <div class="cards w3-padding-large w3-margin-top">
+          <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
+            <h3>ARMED SECURITY GUARDS</h3>
+            <div class="card-text">
+              <p>We provide skilled armed security personnel to ensure the highest level of protection.</p>
+            </div>
+          </div>
+          <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
+            <h3>MALE AND FEMALE SECURITY GUARDS</h3>
+            <div class="card-text">
+              <p>Our team includes both male and female security guards, trained to handle diverse situations.</p>
+            </div>
+          </div>
+          <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
+            <h3>CEREMONIAL GUARDS</h3>
+            <div class="card-text">
+              <p>Our ceremonial guards add a touch of prestige to formal events and ceremonies.</p>
+            </div>
+          </div>
+          <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
+            <h3>EVENT MANAGEMENT BOUNCERS/GUARDS</h3>
+            <div class="card-text">
+              <p>We supply bouncers and guards for event management to maintain order and security.</p>
+            </div>
+          </div>
+          <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
+            <h3>PERSONAL SECURITY BOUNCERS/GUARDS</h3>
+            <div class="card-text">
+              <p>Our personal security services include bouncers and guards for individual protection.</p>
+            </div>
+          </div>
+          <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
+            <h3>SECURITY SUPERVISORS</h3>
+             <div class="card-text">
+              <p>Our experienced security supervisors oversee security operations to ensure smooth functioning.</p>
+            </div> </div>
+             <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
+            <h3>DOG SQUAD</h3>
+             <div class="card-text">
+              <p>Our trained dog squad is available for specialized security tasks and patrolling.</p>
+            </div> </div>
+             <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
+            <h3>CASH AND VALUABLE CARRYING VANS</h3>
+             <div class="card-text">
+              <p>We offer secure transportation services for cash and valuable items.</p>
+            </div> </div>
+             <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
+            <h3>CROWD CONTROL MANAGEMENT</h3>
+             <div class="card-text">
+              <p>We provide effective crowd control management to ensure safety during large gatherings.</p>
+            </div> </div>
+             <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
+            <h3>FIRE CONTROL MANAGEMENT AND TRAINING</h3>
+             <div class="card-text">
+              <p>Our fire control services include management and training to prevent and handle fire emergencies.</p>
+            </div> </div>
+            <div class="card w3-card-2 w3-padding-large w3-border w3-border-blue w3-round-large">
+            <h3>SPECIALIZED SERVICES</h3>
+             <div class="card-text">
+              <p>Includes Threat and Vulnerability Assessments, Employee Background Screening, Executive Protection.</p>
+            </div> </div>
+          </div>
+        </div>
+        <p><b><center>Our commitment to excellence ensures the highest level of professional security services tailored to your needs.</center></b></p>
+      </div>
+
+      <div class="careers container" id="clients">
+        <h2 class="w3-center">Clients</h2>
+        <div class="cards w3-padding-large w3-margin-top">
+
+            <div class="card w3-card-4">
+              <header class="w3-container w3-indigo">
+                 <h3>We are proud to serve a diverse range of clients across various industries.</h3>
+              </header>
+
+              <div class="content w3-container">
+                <div class="card-text" style="padding-bottom: 20px;">
+                  <h4>Some of our valued clients include:</h4>
+                  <ul style="list-style-type: none;">
+                   <li>M/S. AMITA CHEMICALS PVT. LTD., ANKLESHWAR</li>
+                   <li>M/S. APEX HEALTHCARE LTD., ANKLESHWAR</li>
+                   <li>M/S. AUM VIBRANT PHARMA LLT, ANKLESHWAR</li>
+                   <li>M/S. BAKUL PHARMA PVT. LTD., ANKLESHWAR</li>
+                   <li>M/S. CAMEX LIMITED, ANKLESHWAR</li></ul>
+                 
+                </div>
+              </div>
+              </div></div></div>
+
+      <div class="contact container" id="contact">
+        <div class="short-contact">
+          <h2>Contact us</h2>
+          <p class="w3-xlarge">We would like to hear from you!</p>
+          <div class="w3-large w3-margin-top contact-info">
+            <h6>Owner/Proprietor: Krishna Singh Tomar</h6>
+            <i class="fa fa-location-arrow"></i><span style="margin-left:10px;"><a href="https://maps.app.goo.gl/NCzLGxU9FwE74U7d9" target="_blank">A-12, Sardar Patel Complex, Near Railway Station, GIDC, Ankleshwar, Gujarat, India</a></span><br>
+            <i class="fa fa-envelope-o"></i><span style="margin-left:10px;">directer1.ipf@gmail.com</a></span><br>
+            <i class="fa fa-envelope-o"></i><span style="margin-left:10px;">ktomar80@gmail.com</a></span><br>
+            <i class="fa fa-phone"></i><span style="margin-left:10px;">+91 9601665814, +91 9408566628</span><br>
+            <h6>Office Manager: Vipin Joshi</h6>
+              <i class="fa fa-envelope-o"></i><span style="margin-left:10px;">office.ipf@gmail.com</a></span><br>
+            <i class="fa fa-phone"></i><span style="margin-left:10px;">+91 9427465691</span><br>
+
+          </div>
+                </div>
+
+        <div class="form w3-margin-top">
+          <div class="container w3-round-xlarge">
+            <form class="w3-highway-blue w3-padding-large w3-round-large">
+              <label for="fname">First Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name">
+
+              <label for="lname">Last Name</label>
+              <input type="text" id="email" name="email" placeholder="Your email">
+
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+               <input class="w3-metro-blue" type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class=" w3-highway-blue w3-padding-large" id="footer">
+        <p class="w3-center logo">© 2024 - India Protection Force - All rights reserved</p>
+      </div>
+
+  <script>
+    function toggleMobileNavigation() {
+      const mobileNavigation = document.getElementById("mobile-sidenav");
+      mobileNavigation.classList.toggle('mobile-links-active');
+    }
+</script>
+  </body>
+</html>
